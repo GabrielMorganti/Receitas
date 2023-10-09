@@ -1,0 +1,99 @@
+#logo{  
+    height: 100px;
+}
+
+    #logo img {
+
+        height: 90%;
+
+     }
+
+#redes{
+    height: 100px;
+
+}
+
+    #redes i {
+        
+        font-size: 2.5em;
+
+    }
+
+.oquefazemos h4 {
+    margin-top: 10%;
+}
+
+.oquefazemos img {
+    width: 35%;
+}
+
+.dicas {   
+    background-color: #dcdcdcdc;
+    padding: 2%;
+}
+
+.dicas img {
+    margin-bottom: 3%;
+}   
+
+.rodape{
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+.patrocinio{
+    height: 100px;
+}
+
+    .patrocinio img {
+        height: 100px;
+    }
+
+.foto_mini {
+    width: 80px;
+    border: solid 1px #ccc;
+    margin-top: 5px;
+    padding: 2px;
+}
+
+.receita_mini {
+    width: 100%;
+    border: solid 1px #ccc;
+    margin-top: 5px;
+    padding: 2px;
+}
+
+.margin_left{
+    margin-left: 30px;
+
+}
+
+
+    /* ########### Início do media query ############## */
+
+    @media screen and (max-width: 576px) {
+
+        #logo {
+            height: 55px;
+        }
+
+        #logo img {
+            height: 80%;
+        }
+
+        #redes{
+            height: 55px;
+        
+        }
+        
+            #redes i {
+                
+                font-size: 1.3em;
+        
+            }
+            
+        #contato{
+            height: 60px;
+            font-size: 0.8em;
+        }
+    }
